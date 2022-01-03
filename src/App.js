@@ -1,12 +1,8 @@
 import React from "react";
 
-import CounterProvider from "./CounterProvider";
+import { CounterViewProvider } from "./Counter";
 
 const App = () => {
-  return (
-    <>
-      <CounterProvider />
-    </>
-  );
+  return <CounterViewProvider />;
 };
 export default App;
